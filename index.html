@@ -48,6 +48,14 @@
         section {
             padding: 60px 20px;
             margin-top: 50px;
+            text-align: center;
+        }
+
+        section img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin: 20px 0;
         }
 
         section#home {
@@ -61,6 +69,24 @@
 
         h2 {
             text-align: center;
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            font-size: 18px;
+        }
+
+        ul li {
+            margin: 10px 0;
         }
 
         footer {
@@ -87,9 +113,23 @@
             scroll-behavior: smooth;
         }
 
+        /* Button styling */
+        form button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 18px;
+        }
+
+        form button:hover {
+            background-color: #45a049;
+        }
+
     </style>
 </head>
 <body>
+
     <header>
         <h1>Training Institute</h1>
         <nav>
@@ -106,12 +146,15 @@
     <section id="home">
         <h2>Welcome to Our Training Institute</h2>
         <p>We offer a variety of courses designed to help you succeed in your career. Explore our programs and join us today!</p>
+        <img src="https://via.placeholder.com/1000x400" alt="Training Institute Image">
     </section>
 
     <!-- About Us Section -->
     <section id="about">
         <h2>About Us</h2>
-        <p>At our training institute, we strive to provide the best education and career development opportunities for our students. We have a team of experienced educators and industry professionals dedicated to helping you achieve your goals.</p>
+        <p>At our training institute, we strive to provide the best education and career development opportunities for our students.</p>
+        <p>We have a team of experienced educators and industry professionals dedicated to helping you achieve your goals.</p>
+        <img src="https://via.placeholder.com/800x400" alt="About Us Image">
     </section>
 
     <!-- Courses Section -->
@@ -123,13 +166,13 @@
             <li>Cloud Computing</li>
             <li>Digital Marketing</li>
         </ul>
+        <img src="https://via.placeholder.com/800x400" alt="Courses Image">
     </section>
 
     <!-- Contact Section -->
     <section id="contact">
         <h2>Contact Us</h2>
         <p>If you have any questions or would like to learn more about our programs, feel free to reach out to us.</p>
-
         <form action="#" method="POST">
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" required>
@@ -142,6 +185,7 @@
 
             <button type="submit">Submit</button>
         </form>
+        <img src="https://via.placeholder.com/800x400" alt="Contact Us Image">
     </section>
 
     <!-- Footer -->
