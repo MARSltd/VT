@@ -1,5 +1,153 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Training Institute - One Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        section {
+            padding: 60px 20px;
+            margin-top: 50px;
+        }
+
+        section#home {
+            background-color: #f9f9f9;
+        }
+
+        section#about, section#courses, section#contact {
+            background-color: #fff;
+            border-top: 1px solid #ddd;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+            text-align: left;
+        }
+
+        form input, form textarea, form button {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+        }
+
+        /* Scroll behavior */
+        html {
+            scroll-behavior: smooth;
+        }
+
+    </style>
+</head>
 <body>
-  Vaishnavi Technologies Welcomes You!!
+    <header>
+        <h1>Training Institute</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+        <h2>Welcome to Our Training Institute</h2>
+        <p>We offer a variety of courses designed to help you succeed in your career. Explore our programs and join us today!</p>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about">
+        <h2>About Us</h2>
+        <p>At our training institute, we strive to provide the best education and career development opportunities for our students. We have a team of experienced educators and industry professionals dedicated to helping you achieve your goals.</p>
+    </section>
+
+    <!-- Courses Section -->
+    <section id="courses">
+        <h2>Our Courses</h2>
+        <ul>
+            <li>Web Development</li>
+            <li>Data Science</li>
+            <li>Cloud Computing</li>
+            <li>Digital Marketing</li>
+        </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or would like to learn more about our programs, feel free to reach out to us.</p>
+
+        <form action="#" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Training Institute. All rights reserved.</p>
+    </footer>
+
 </body>
 </html>
